@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 28" translatesAutoresizingMaskIntoConstraints="NO" id="Jy0-bE-d2S">
+                                <rect key="frame" x="8" y="0.0" width="377" height="382"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-graphic 1" translatesAutoresizingMaskIntoConstraints="NO" id="TAc-ns-1nj">
+                                <rect key="frame" x="0.0" y="422" width="393" height="363"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reality 1" translatesAutoresizingMaskIntoConstraints="NO" id="RXW-pg-Ebm">
+                                <rect key="frame" x="76.666666666666686" y="154" width="240" height="74"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="we are happily saying. we are awesome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWW-qp-XV7">
+                                <rect key="frame" x="8" y="793" width="377" height="17"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PWW-qp-XV7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="1qm-rt-x7K"/>
+                            <constraint firstItem="RXW-pg-Ebm" firstAttribute="centerX" secondItem="Jy0-bE-d2S" secondAttribute="centerX" id="77q-ts-KVU"/>
+                            <constraint firstItem="Jy0-bE-d2S" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="7xR-TQ-FGD"/>
+                            <constraint firstAttribute="trailing" secondItem="TAc-ns-1nj" secondAttribute="trailing" id="8SK-XD-xBG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PWW-qp-XV7" secondAttribute="trailing" constant="8" id="DlD-jP-CSe"/>
+                            <constraint firstItem="Jy0-bE-d2S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="HRC-Me-Ppz"/>
+                            <constraint firstItem="TAc-ns-1nj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jbn-oT-RS4"/>
+                            <constraint firstItem="RXW-pg-Ebm" firstAttribute="centerY" secondItem="Jy0-bE-d2S" secondAttribute="centerY" id="Lz3-Rb-7qJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PWW-qp-XV7" secondAttribute="bottom" constant="8" id="OUS-c7-zse"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jy0-bE-d2S" secondAttribute="trailing" constant="8" id="RKh-OE-hKF"/>
+                            <constraint firstItem="TAc-ns-1nj" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Jy0-bE-d2S" secondAttribute="bottom" constant="40" id="faa-4n-mvs"/>
+                            <constraint firstItem="PWW-qp-XV7" firstAttribute="top" secondItem="TAc-ns-1nj" secondAttribute="bottom" constant="8" id="gcb-Tv-dHP"/>
+                            <constraint firstItem="TAc-ns-1nj" firstAttribute="height" secondItem="Jy0-bE-d2S" secondAttribute="height" multiplier="0.95" id="qnt-3J-RpG"/>
+                            <constraint firstItem="TAc-ns-1nj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uoV-5f-Lo9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rectangle 28" width="340" height="292"/>
+        <image name="reality 1" width="240" height="74"/>
+        <image name="splash-graphic 1" width="360" height="389"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
